@@ -10,5 +10,4 @@ needs to be performed on the current binary number.
 
 so basically:
 
-SR-latch -> check output -> Demux (1x2) selector line ---(1)--> increment operation on current binary number
-                                        |---(0)---> decrement operation on current binary number
+SR-latch -> check output -> Demux (1x2) selector line -> increment operation on current binary number if Selector = 1 else decrement operation
